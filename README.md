@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage
 
-![Design preview for the News homepage coding challenge](./design/Screenshot%202024-09-28%20at%2016-58-46%20Frontend%20Mentor%20News%20homepage.png)
+![Design preview for the News homepage coding challenge](./assets/images/Screenshot%202024-09-28%20at%2016-58-46%20Frontend%20Mentor%20News%20homepage.png)
 
 ## Deploying my project
 
