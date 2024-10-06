@@ -11,6 +11,8 @@ windoSize();
 // Add event listener for window resize
 window.addEventListener("resize", windoSize);
 // icon image change here
+
+/*
 const iconBar = document.getElementById("imgIcon");
 var images = [
   "./assets/images/icon-menu.svg",
@@ -25,3 +27,16 @@ function nextImage() {
   showImage(currentIndex);
 }
 iconBar.addEventListener("click", nextImage);
+
+*/
+//Below is the code in the best way
+const iconBar = document.getElementById("imgIcon");
+iconBar.onclick = () => {
+  const mySrc =iconBar.getAttribute("src");
+  if (mySrc === "./assets/images/icon-menu.svg") {
+    iconBar.setAttribute("src", "./assets/images/icon-menu-close.svg");
+  } else {
+    iconBar.setAttribute("src", "./assets/images/icon-menu.svg");
+  }
+};
+
